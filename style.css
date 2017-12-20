@@ -1,6 +1,11 @@
-header {
+html {
+    box-sizing: border-box;
+}
+
+header, nav {
     background-color: #FD739C;
     color: white;
+    font-family: Arial, sans-serif;
 }
 
 h1, h2 {
@@ -10,4 +15,13 @@ h1, h2 {
 body {
     font-size: 22px;
     line-height: 34px;
+}
+
+header {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+main {
+    padding: 40px 0 40px 0;
 }
